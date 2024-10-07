@@ -10,9 +10,6 @@ locals {
 # Retrieve the current AWS Account info
 data "aws_caller_identity" "current_account" {}
 
-# Get current region
-data "aws_region" "current_region" {}
-
 # Lookup known KMS keys for easy reference across stack
 data "aws_kms_key" "known_keys" {
   for_each = local.known_kms_keys
