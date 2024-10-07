@@ -9,7 +9,7 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "cmk" {
   bucket = aws_s3_bucket.s3_bucket.id
   rule {
     apply_server_side_encryption_by_default {
-      kms_master_key_id = aws_kms_key.customer_managed_key[count.index]
+      kms_master_key_id = aws_kms_key.customer_managed_key[count.index].id
       sse_algorithm     = "aws:kms"
     }
   }
