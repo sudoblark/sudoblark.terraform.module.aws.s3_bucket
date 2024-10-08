@@ -4,7 +4,7 @@ locals {
       for prefix in bucket.prefixes : {
         bucket : bucket.name
         key : prefix
-        identifier = format("%s%s", bucket.name, prefix)
+        identifier = format("%s/%s", bucket.name, prefix)
       } if length(bucket.prefixes) > 0
     ]
   ])
