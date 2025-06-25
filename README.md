@@ -1,4 +1,9 @@
 # sudoblark.terraform.module.aws.s3_bucket
+[![CI](https://github.com/sudoblark/sudoblark.terraform.module.aws.s3_bucket/actions/workflows/commit-to-pr.yaml/badge.svg)](https://github.com/sudoblark/sudoblark.terraform.module.aws.s3_bucket/actions/workflows/commit-to-pr.yaml)
+[![Terraform Version](https://img.shields.io/badge/Terraform-1.7%2B-blueviolet?logo=terraform)](https://developer.hashicorp.com/terraform/)
+[![Registry](https://img.shields.io/badge/registry-pending-lightgrey)](https://registry.terraform.io/)
+[![License](https://img.shields.io/github/license/sudoblark/sudoblark.terraform.module.aws.s3_bucket)](https://github.com/sudoblark/sudoblark.terraform.module.aws.s3_bucket/blob/main/LICENSE.txt)
+
 Terraform module to create N number of S3 buckets. - repo managed by sudoblark.terraform.github
 
 ## Developer documentation
